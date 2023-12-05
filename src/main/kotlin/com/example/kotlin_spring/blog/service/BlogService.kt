@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service
 @Service
 class BlogService {
     fun search(blogDto: BlogDto): String? {
-        println(blogDto)
+        println(blogDto.toString())
         return "Search"
     }
 }
